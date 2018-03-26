@@ -1,0 +1,5 @@
+set xrange[-2e8:2e8]
+set yrange[-2e8:2e8]
+plot 'hesterbergnl_project_data.txt' using 1:2 pt 7 ps .05
+pause mouse
+replot
